@@ -1,0 +1,19 @@
+name = "jktarots"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "./dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "jktarots-db"
+database_id = "placeholder-will-update-after-creation"
+
+[[kv_namespaces]]
+binding = "ORDERS_KV"
+id = "placeholder-will-update-after-creation"
+
+[vars]
+ENVIRONMENT = "production"
+
+[env.preview]
+[env.preview.vars]
+ENVIRONMENT = "preview"
